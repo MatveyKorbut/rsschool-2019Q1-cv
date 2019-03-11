@@ -11,11 +11,11 @@ h2 {
 }
 
 .container {
+  display: flex;
+  align-items: center;
   width: 1024px;
   margin: 0 auto;
   margin-bottom: 50px;
-  display: flex;
-  align-items: center;
 }
 
 .about {
@@ -23,15 +23,14 @@ h2 {
 }
 
 .container h1 {
+  margin: 30px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 32px;
-  margin: 30px;
 }
 
 .square {
   width: 200px;
   height: 200px;
-  background: tomato;
   border-radius: 100%;
   overflow: hidden;
 }
