@@ -1,0 +1,90 @@
+header,
+main {
+  width: 100%;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.about {
+  justify-content: center;
+}
+
+.container h1 {
+  margin: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.square img {
+  position: relative;
+  left: -20%;
+}
+
+.contacts {
+  justify-content: space-around;
+}
+
+.contacts a,
+.contacts p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  text-decoration: none;
+  color: #BDB76B;
+}
+
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+
+
+.summary h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+
+.skills ul{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+}
+
+.skills ul li {
+  margin: 0 10px;
+}
+
+.code {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.code a{
+  text-decoration: none;
+  color: black;
+}
+
